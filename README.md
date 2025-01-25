@@ -31,7 +31,7 @@ Welcome to my portfolio! Here, you'll find a showcase of my skills and projects 
 - **[Project Name 2](https://github.com/swordman08/java-project-2)**: Description
 
 ### C++
-- **[Student Faculty Database](https://github.com/swordman08/lazyBST)**: A student faculty database that allows for manipulation of records, implemented with a lazy binary search tree (BST).
+- **[Student Faculty Database](https://github.com/swordman08/lazyBST)**: A student faculty database that allows for manipulation of records, implemented with a lazy binary search tree (LBST) from scratch.
 - **[Grid Mario](https://github.com/swordman08/Mario)**: 2D grid based mario simulation that keeps making moves until death or win. User inputs starting features such as lives, levels, grid size per level, monsters per level, etc...
 
 ## About Me
