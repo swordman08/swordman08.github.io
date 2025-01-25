@@ -27,7 +27,7 @@ Welcome to my portfolio! Here, you'll find a showcase of my skills and projects 
 ## Programming Projects
 
 ### Java
-- **[Project Name 1](https://github.com/swordman08/java-project-1)**: Description
+- **[Lets Chat](https://github.com/swordman08/LetsChat)**: Client Server application where the Server hosts a trivia. The Clients connect to the host server and receive trivia questions.
 - **[Project Name 2](https://github.com/swordman08/java-project-2)**: Description
 
 ### C++
