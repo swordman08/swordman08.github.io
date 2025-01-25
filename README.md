@@ -39,6 +39,8 @@ I am a senior data scientist with expertise in programming, networking, and buil
 
 Feel free to connect with me and explore my work through my GitHub profile: [My GitHub](https://github.com/swordman08).
 
+[My LinkedIn](https://www.linkedin.com/in/decker-mecham/).
+
 ---
 
 Thank you for visiting my portfolio! If you have any questions or would like to collaborate, don't hesitate to reach out!
