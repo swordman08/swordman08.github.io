@@ -10,9 +10,7 @@
 
 Welcome to my portfolio! Here, you'll find a showcase of my skills and projects in various programming languages and data science domains. Feel free to explore the GitHub repositories linked below.
 
-## Programming Languages
-
-## Data Science
+## Data Science Projects
 
 ### Python
 - **[Project Name 1](https://github.com/swordman08/python-project-1)**: Description 
@@ -25,6 +23,8 @@ Welcome to my portfolio! Here, you'll find a showcase of my skills and projects 
 ### SQL
 - **[Project Name 1](https://github.com/swordman08/sql-project-1)**: Description 
 - **[Project Name 2](https://github.com/swordman08/sql-project-2)**: Description
+
+## Programming Projects
 
 ### Java
 - **[Project Name 1](https://github.com/swordman08/java-project-1)**: Description
