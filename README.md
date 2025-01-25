@@ -21,7 +21,7 @@ Welcome to my portfolio! Here, you'll find a showcase of my skills and projects 
 - **[IMDB Movies](https://github.com/swordman08/R-Code-Problem-4)**: Examining what variables affect the Gross Profit of a movie the most with machine learning ensemble models Random Forest and Tree.
 
 ### SQL
-- **[Project Name 1](https://github.com/swordman08/sql-project-1)**: Description 
+- **[Animal Adoption](https://github.com/swordman08/Pet-Adoption)**: A mock pet adoption Flask based HTML website that allows for a range of user interactions that directly manipulate a MySQL database with the help of a Python application.
 - **[Project Name 2](https://github.com/swordman08/sql-project-2)**: Description
 
 ## Programming Projects
@@ -44,3 +44,5 @@ Feel free to connect with me and explore my work through my GitHub profile: [My 
 ---
 
 Thank you for visiting my portfolio! If you have any questions or would like to collaborate, don't hesitate to reach out!
+
+You can reach me by email at deckermecham@gmail.com
