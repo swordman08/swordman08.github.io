@@ -28,7 +28,6 @@ Welcome to my portfolio! Here, you'll find a showcase of my skills and projects 
 
 ### Java
 - **[Lets Chat](https://github.com/swordman08/LetsChat)**: Client Server application where the Server hosts a trivia. The Clients connect to the host server and receive trivia questions.
-- **[Project Name 2](https://github.com/swordman08/java-project-2)**: Description
 
 ### C++
 - **[Student Faculty Database](https://github.com/swordman08/lazyBST)**: A student faculty database that allows for manipulation of records, implemented with a lazy binary search tree (LBST) from scratch.
