@@ -22,7 +22,7 @@ Welcome to my portfolio! Here, you'll find a showcase of my skills and projects 
 
 ### SQL
 - **[Animal Adoption](https://github.com/swordman08/Pet-Adoption)**: A mock pet adoption Flask based HTML website that allows for a range of user interactions that directly manipulate a MySQL database with the help of a Python application.
-- **[Project Name 2](https://github.com/swordman08/sql-project-2)**: Description
+- **[Ride Share](https://github.com/swordman08/RideShare)**: Driver and Passenger can login to portal to find rides. MySQL database stores all the information needed about passengers and drivers, such as Ratings, Car type, Liscense plate ID, number, etc...
 
 ## Programming Projects
 
