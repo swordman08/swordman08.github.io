@@ -17,7 +17,6 @@ Welcome to my portfolio! Here, you'll find a showcase of my skills and projects 
 - **[Housing Valuation](https://github.com/swordman08/HousingCA)**: Housing Valuation Model for California Real Estate with XGBoost. 4 additional variables were added to the final model with Google Places API and walkscore API, improving upon the earlier model by increasing test R-Squared by 27.1% and decreasing test RMSE by 33%.
 
 ### R
-- **[Project Name 1](https://github.com/swordman08/r-project-1)**: Description 
 - **[IMDB Movies](https://github.com/swordman08/R-Code-Problem-4)**: Examining what variables affect the Gross Profit of a movie the most with machine learning ensemble models Random Forest and Tree.
 
 ### SQL
