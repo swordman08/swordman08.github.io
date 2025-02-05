@@ -13,8 +13,8 @@ Welcome to my portfolio! Here, you'll find a showcase of my skills and projects 
 ## Data Science Projects
 
 ### Python
-- **[Shiny on EC2](https://github.com/swordman08/shiny-app)**: Interactive R Shiny California housing AVM that was deployed on Amazon EC2. Google Places API was used to add 4 new features. Modeling was all done in Python, the models were cached in PKL files for the R Shiny app to load.
-- **[Project Name 2](https://github.com/swordman08/python-project-2)**: Description
+- **[Shiny on EC2](https://github.com/swordman08/shiny-app)**: Interactive R Shiny California Real Estate AVM that was deployed on Amazon EC2. Modeling was all done in Python, the models were cached in PKL files for the R Shiny app to load.
+- **[Housing Valuation](https://github.com/swordman08/HousingCA)**: Housing Valuation Model for California Real Estate with XGBoost. 4 additional variables were added to the final model with Google Places API and walkscore API. The added API variables improved upon the earlier model by increasing test R-Squared by 27.1% and decreasing test RMSE by 33%.
 
 ### R
 - **[Project Name 1](https://github.com/swordman08/r-project-1)**: Description 
