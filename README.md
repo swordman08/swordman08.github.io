@@ -13,7 +13,7 @@ Welcome to my portfolio! Here, you'll find a showcase of my skills and projects 
 ## Data Science Projects
 
 ### Python
-- **[Project Name 1](https://github.com/swordman08/python-project-1)**: Description 
+- **[Shiny on EC2](https://github.com/swordman08/shiny-app)**: Interactive R Shiny California housing AVM that was deployed on Amazon EC2. Google Places API was used to add 4 new features. Modeling was all done in Python, the models were cached in PKL files for the R Shiny app to load.
 - **[Project Name 2](https://github.com/swordman08/python-project-2)**: Description
 
 ### R
