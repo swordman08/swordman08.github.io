@@ -33,7 +33,7 @@ Welcome to my portfolio! Here, you'll find a showcase of my skills and projects 
 - **[Grid Mario](https://github.com/swordman08/Mario)**: 2D grid based mario simulation that keeps making moves until death or win. User inputs starting features such as lives, levels, grid size per level, monsters per level, etc...
 
 ## About Me
-I am a senior data scientist with expertise in programming, networking, and building data-driven solutions. 
+I am a senior data scientist with experience in programming, networking, and building data-driven solutions. 
 
 Feel free to connect with me and explore my work through my GitHub profile: [My GitHub](https://github.com/swordman08).
 
