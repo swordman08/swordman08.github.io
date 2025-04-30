@@ -2,10 +2,10 @@
 
 #### Technical Skills: Python, SQL, R, C++, Java, EC2, HTML/CSS.
 
-## Education
+## Education <pre> 
 - B.S.   Data Science     | Chapman University (_May 2025_)
 - Minor, Entrepreneurship | Chapman University (_May 2025_)
-
+</pre> 
 # My Projcts
 
 Welcome to my portfolio! Here, you'll find a showcase of my skills and projects in various programming languages and data science domains. Feel free to explore the GitHub repositories linked below.
