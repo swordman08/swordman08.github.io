@@ -1,6 +1,6 @@
 # Data Scientist
 
-#### Technical Skills: Python, SQL, R, C++, Java, EC2, HTML/CSS, Tableau, Power BI.
+#### Technical Skills: Python, SQL, R, C++, Java, Flask, EC2, HTML/CSS, Tableau, Power BI, Excel, 3D Modeling, API use, Web Scraping, Google Colab / VS Code.
 
 ## Education 
 - B.S.   Data Science &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    | Chapman University (_May 2025_)
