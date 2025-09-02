@@ -1,6 +1,6 @@
 # Data Scientist
 
-#### Technical Skills: Python, SQL, R, C++, Java, EC2, HTML/CSS.
+#### Technical Skills: Python, SQL, R, C++, Java, EC2, HTML/CSS, Tableau, Power BI.
 
 ## Education 
 - B.S.   Data Science &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    | Chapman University (_May 2025_)
@@ -33,7 +33,7 @@ Welcome to my portfolio! Here, you'll find a showcase of my skills and projects 
 - **[Grid Mario](https://github.com/swordman08/Mario)**: 2D grid based mario simulation that keeps making moves until death or win. User inputs starting features such as lives, levels, grid size per level, monsters per level, etc...
 
 ## About Me
-I am a senior data scientist with experience in programming, networking, and building data-driven solutions. 
+I am a new grad data scientist/analyst with experience in programming, networking, and building data-driven solutions. 
 
 Feel free to connect with me and explore my work through my GitHub profile: [My GitHub](https://github.com/swordman08).
 
