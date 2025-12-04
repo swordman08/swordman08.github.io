@@ -13,7 +13,7 @@ Welcome to my portfolio! Here, you'll find a showcase of my skills and projects 
 ## Fun Projects
 
 - **[Fractal Flare](https://github.com/swordman08/fractal-flare)**: Typescript based interactive art and visual game.
-  **[Game Link](https://fractal-flare.lovable.app/)**
+  **[Game](https://fractal-flare.lovable.app/)**
   
 - **[Webcam History](https://github.com/swordman08/skicams)**: Ski Mountain webcam history via scheduled API calls, cloud storage, and extensive Typescript.
   **[Webcams](https://skicams.lovable.app/)**
