@@ -18,6 +18,9 @@ Welcome to my portfolio! Here, you'll find a showcase of my skills and projects 
 - **[Webcam History](https://github.com/swordman08/skicams)**: Ski Mountain webcam history via scheduled API calls, cloud storage, and extensive Typescript.
   **[Webcams](https://skicams.lovable.app/)**
 
+- **[Snow Zone](https://github.com/swordman08/snowzone)**: Community backed insights on all things snow for ski resorts.
+  **[Forum](https://snowzone.lovable.app/)**
+
 ## Data Science Projects
 
 ### Python
