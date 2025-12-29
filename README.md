@@ -12,6 +12,9 @@ Welcome to my portfolio! Here, you'll find a showcase of my skills and projects 
 
 ## Fun Projects
 
+- **[Member Dashboard](https://github.com/swordman08/clubmembers)**: Intuitive and appealing dashboard to view insights on club loyalty members.
+  **[Dashboard](https://clubmembers.lovable.app)**
+
 - **[Fractal Flare](https://github.com/swordman08/fractal-flare)**: Typescript based interactive art and visual game.
   **[Game](https://fractal-flare.lovable.app/)**
   
