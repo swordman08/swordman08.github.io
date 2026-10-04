@@ -1,0 +1,76 @@
+---
+layout: portfolio
+title: Decker Mecham | Data Science & Analytics
+---
+{% assign profile = site.data.portfolio %}
+<section class="hero" aria-labelledby="intro-title">
+  <div class="hero-copy">
+    <p class="eyebrow"><span class="accent-line" aria-hidden="true"></span> Data science &amp; analytics</p>
+    <h1 id="intro-title">Decker<br> Mecham<span class="accent">.</span></h1>
+    <p class="hero-heading">From data to insight.<br>From ideas to applications.</p>
+    <p class="hero-description">{{ profile.intro }}</p>
+    <div class="hero-actions">
+      <a class="button button-primary" href="#projects">Explore my work {% include icon.html direction='down' %}</a>
+      <a class="button button-secondary" href="{{ profile.linkedin }}">Connect on LinkedIn {% include icon.html %}</a>
+    </div>
+    <div class="hero-profile-links"><a href="mailto:{{ profile.email }}">Email me</a><span aria-hidden="true">/</span><a href="{{ profile.github }}">GitHub</a></div>
+    <p class="hero-note">{{ profile.education.degree }} <span aria-hidden="true">·</span> {{ profile.education.school }} <span aria-hidden="true">·</span> Class of 2025</p>
+  </div>
+  <div class="profile-panel">
+    <div class="portrait-frame">
+      <img class="portrait" src="{{ site.logo | relative_url }}" alt="Decker Mecham" width="862" height="1076" fetchpriority="high">
+      <span class="portrait-label">A little curiosity. A lot of building.</span>
+    </div>
+    <div class="profile-caption"><span class="caption-mark">{% include icon.html direction='turn' %}</span><p>Predictive models. Interactive dashboards.<br>Applications you can explore.</p></div>
+  </div>
+</section>
+
+<section id="projects" class="section featured-section" aria-labelledby="projects-title">
+  <div class="section-heading"><div><p class="eyebrow">01 / Selected work</p><h2 id="projects-title">Built to put data to work.</h2></div><p class="section-description">A closer look at modeling, deployment, and data collection.</p></div>
+  <div class="featured-grid">
+    {% for project in profile.featured %}
+    <article class="project-card{% if project.metrics %} project-card-featured{% endif %}">
+      <div class="card-top"><p class="project-category">{{ project.category }}</p><span class="project-number" aria-hidden="true">0{{ forloop.index }}</span></div>
+      <h3>{{ project.name }}</h3>
+      <p class="project-summary">{{ project.summary }}</p>
+      {% if project.metrics %}
+      <dl class="project-metrics">{% for metric in project.metrics %}<div><dt>{{ metric.label }}</dt><dd>{{ metric.value }}</dd></div>{% endfor %}</dl>
+      {% endif %}
+      <p class="project-evidence">{{ project.evidence }}</p>
+      <ul class="tags" aria-label="{{ project.name }} technologies">{% for tag in project.tags %}<li>{{ tag }}</li>{% endfor %}</ul>
+      <div class="project-links">{% if project.demo %}<a href="{{ project.demo }}" aria-label="Explore {{ project.name }} live demo">Live demo {% include icon.html %}</a>{% endif %}<a href="{{ project.github }}" aria-label="View {{ project.name }} source code on GitHub">View source {% include icon.html %}</a></div>
+    </article>
+    {% endfor %}
+  </div>
+
+  <div class="more-work-heading"><h3>More things I’ve built</h3><p>From analytics to games and database applications.</p></div>
+  <div class="project-list">
+    {% for project in profile.projects %}
+    <article class="project-row">
+      <p class="project-category">{{ project.category }}</p>
+      <h4><a href="{{ project.github }}">{{ project.name }} {% include icon.html %}</a></h4>
+      <p>{{ project.summary }}</p>
+      {% if project.demo %}<a class="demo-link" href="{{ project.demo }}" aria-label="Explore {{ project.name }} live demo">Try the live demo {% include icon.html %}</a>{% endif %}
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section id="skills" class="section skills-section" aria-labelledby="skills-title">
+  <div class="section-heading"><div><p class="eyebrow">02 / Toolkit</p><h2 id="skills-title">The tools behind the work.</h2></div><p class="section-description">A foundation in analysis, programming, and building applications.</p></div>
+  <div class="skills-grid">
+    {% for group in profile.skills %}
+    <div class="skill-group"><span class="skill-index" aria-hidden="true">0{{ forloop.index }}</span><h3>{{ group.category }}</h3><ul>{% for item in group.items %}<li>{{ item }}</li>{% endfor %}</ul></div>
+    {% endfor %}
+  </div>
+</section>
+
+<section id="about" class="section about-section" aria-labelledby="about-title">
+  <div class="about-copy"><p class="eyebrow">03 / A little about me</p><h2 id="about-title">Curious about the data.<br>Interested in what’s next.</h2><p>I studied data science at Chapman University, with a minor in entrepreneurship. My projects span real estate modeling, interactive applications, database systems, and creative programming.</p><p>I enjoy connecting the analytical side of a problem with something people can use. You’ll find that mix throughout my work, from a housing valuation model to ski resort applications.</p></div>
+  <div class="education-card"><p class="eyebrow">Education</p><h3>{{ profile.education.school }}</h3><p class="degree">{{ profile.education.degree }}</p><p>{{ profile.education.minor }}</p><p class="graduation">Graduated <time datetime="2025-05">{{ profile.education.graduated }}</time></p><button id="print-profile" class="text-button" type="button" hidden>Print / save this profile {% include icon.html %}</button></div>
+</section>
+
+<section id="contact" class="contact-section" aria-labelledby="contact-title">
+  <div><p class="eyebrow">04 / Let’s connect</p><h2 id="contact-title">Have a role or project<br>in mind?</h2><p>I’d love to talk about opportunities in data science, analytics, and application development.</p></div>
+  <div class="contact-links"><a class="email-link" href="mailto:{{ profile.email }}">{{ profile.email }} {% include icon.html %}</a><div><a href="{{ profile.linkedin }}">LinkedIn {% include icon.html %}</a><a href="{{ profile.github }}">GitHub {% include icon.html %}</a></div></div>
+</section>

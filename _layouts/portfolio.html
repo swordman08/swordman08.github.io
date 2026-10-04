@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | default: site.title | escape }}</title>
+    <meta name="description" content="{{ site.description | escape }}">
+    <meta name="author" content="{{ site.author | escape }}">
+    <meta name="theme-color" content="#f7f8fa">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ page.title | default: site.title | escape }}">
+    <meta property="og:description" content="{{ site.description | escape }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:image" content="{{ site.logo | absolute_url }}">
+    <meta property="og:image:alt" content="Portrait of Decker Mecham">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" type="image/svg+xml" href="{{ '/assets/img/favicon.svg' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/portfolio.css' | relative_url }}">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfilePage",
+        "url": {{ page.url | absolute_url | jsonify }},
+        "name": {{ page.title | default: site.title | jsonify }},
+        "mainEntity": {
+          "@type": "Person",
+          "name": {{ site.data.portfolio.name | jsonify }},
+          "description": {{ site.data.portfolio.intro | jsonify }},
+          "url": {{ '/' | absolute_url | jsonify }},
+          "image": {{ site.logo | absolute_url | jsonify }},
+          "email": {{ site.data.portfolio.email | prepend: 'mailto:' | jsonify }},
+          "sameAs": [{{ site.data.portfolio.github | jsonify }}, {{ site.data.portfolio.linkedin | jsonify }}],
+          "alumniOf": {"@type": "CollegeOrUniversity", "name": "Chapman University"},
+          "knowsAbout": ["Data science", "Data analytics", "Python", "SQL", "R", "XGBoost", "Tableau", "Power BI", "TypeScript", "Flask", "Amazon EC2"]
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="{{ '/' | relative_url }}" aria-label="Decker Mecham home"><span class="monogram" aria-hidden="true">dm<span>.</span></span><span class="brand-name">Decker Mecham</span></a>
+        <nav aria-label="Main navigation">
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#about">About</a>
+          <a class="nav-contact" href="#contact">Let’s connect {% include icon.html %}</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="container" tabindex="-1">
+      {{ content }}
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner"><p>Decker Mecham <span aria-hidden="true">/</span> Data science &amp; analytics</p><a href="{{ site.data.portfolio.github }}">GitHub {% include icon.html %}</a></div>
+    </footer>
+    <script>
+      // The full portfolio remains readable when JavaScript is unavailable.
+      const printButton = document.getElementById('print-profile');
+      if (printButton) {
+        printButton.hidden = false;
+        printButton.addEventListener('click', () => window.print());
+      }
+    </script>
+  </body>
+</html>

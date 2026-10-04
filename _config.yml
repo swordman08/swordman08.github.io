@@ -1,5 +1,11 @@
 title: Decker Mecham
+description: Data science and analytics portfolio of Decker Mecham, a Chapman University graduate building predictive models, dashboards, and web applications.
+url: https://swordman08.github.io
+baseurl: ""
+lang: en-US
+author: Decker Mecham
 logo: /assets/img/linkedin.PNG
-#description: text below image
-show_downloads: true
+show_downloads: false
 theme: jekyll-theme-minimal
+exclude:
+  - README.md

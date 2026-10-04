@@ -1,0 +1,82 @@
+name: Decker Mecham
+email: deckermecham@gmail.com
+github: https://github.com/swordman08
+linkedin: https://www.linkedin.com/in/decker-mecham/
+intro: I’m a data science graduate who builds predictive models, explores data, and turns ideas into interactive applications.
+education:
+  school: Chapman University
+  degree: B.S. in Data Science
+  minor: Minor in Entrepreneurship
+  graduated: May 2025
+skills:
+  - category: Data science & analytics
+    items: [Python, SQL, R, XGBoost, Random Forest, Tableau, Power BI]
+  - category: Applications & infrastructure
+    items: [TypeScript, Flask, R Shiny, MySQL, Amazon EC2, APIs, Web scraping]
+  - category: Programming & other tools
+    items: [C++, Java, Data structures, 3D modeling]
+featured:
+  - name: Housing Valuation
+    category: Predictive modeling
+    summary: A California real estate valuation model built with XGBoost. I added four features using Google Places and Walk Score API data to improve the earlier model.
+    evidence: On the test set, R² increased by 27.1% and RMSE decreased by 33% compared with the earlier model.
+    tags: [Python, XGBoost, Feature engineering, APIs]
+    github: https://github.com/swordman08/HousingCA
+    metrics:
+      - value: "+27.1%"
+        label: Test R²
+      - value: "−33%"
+        label: Test RMSE
+  - name: Shiny on EC2
+    category: Model deployment
+    summary: An interactive California real estate automated valuation model. Python models were cached in PKL files for an R Shiny application deployed on Amazon EC2.
+    evidence: Connects Python modeling, an interactive R interface, and cloud deployment in one project.
+    tags: [Python, R Shiny, Amazon EC2]
+    github: https://github.com/swordman08/shiny-app
+  - name: Webcam History
+    category: Data collection & web applications
+    summary: A ski mountain webcam history application using scheduled API calls, cloud storage, and TypeScript to make past webcam images accessible.
+    evidence: Explore the live application or inspect the data collection workflow in the repository.
+    tags: [TypeScript, APIs, Cloud storage]
+    github: https://github.com/swordman08/skicams
+    demo: https://skicams.lovable.app/
+projects:
+  - name: Member Dashboard
+    category: Analytics dashboard
+    summary: An interactive dashboard for exploring insights about loyalty club members.
+    github: https://github.com/swordman08/clubmembers
+    demo: https://clubmembers.lovable.app
+  - name: IMDB Movies
+    category: R · Machine learning
+    summary: An analysis of the factors associated with movie gross profit using Random Forest and decision tree models.
+    github: https://github.com/swordman08/R-Code-Problem-4
+  - name: Animal Adoption
+    category: Python · Flask · MySQL
+    summary: A mock animal adoption website with user interactions that read and update a MySQL database.
+    github: https://github.com/swordman08/Pet-Adoption
+  - name: Ride Share
+    category: SQL · MySQL
+    summary: Driver and passenger portals backed by a database of rides, ratings, vehicles, and license plate information.
+    github: https://github.com/swordman08/RideShare
+  - name: Snow Zone
+    category: Community application
+    summary: A community forum for sharing insights about snow conditions at ski resorts.
+    github: https://github.com/swordman08/snowzone
+    demo: https://snowzone.lovable.app/
+  - name: Fractal Flare
+    category: TypeScript · Interactive art
+    summary: A visual game and interactive art experience built with TypeScript.
+    github: https://github.com/swordman08/fractal-flare
+    demo: https://fractal-flare.lovable.app/
+  - name: Let’s Chat
+    category: Java · Networking
+    summary: A client-server trivia application in which a server hosts questions for connected clients.
+    github: https://github.com/swordman08/LetsChat
+  - name: Student Faculty Database
+    category: C++ · Data structures
+    summary: A student and faculty records application built around a lazy binary search tree implemented from scratch.
+    github: https://github.com/swordman08/lazyBST
+  - name: Grid Mario
+    category: C++ · Simulation
+    summary: A two-dimensional Mario-inspired simulation with configurable lives, world size, enemies, and other game settings.
+    github: https://github.com/swordman08/Mario
